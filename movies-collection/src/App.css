@@ -1,6 +1,3 @@
-/* ==========================================================================
-   1. Base Reset & Root Canvas Variables
-   ========================================================================== */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,9 +22,7 @@ body {
     flex-direction: column;
 }
 
-/* ==========================================================================
-   2. Header Component Specific Styling
-   ========================================================================== */
+/*  Header Component Specific Styling */
 .dashboard-header {
     width: 100%;
     display: flex;
@@ -73,9 +68,7 @@ body {
     width: 280px;
 }
 
-/* ==========================================================================
-   3. Main Layout Framework & Component Spacing
-   ========================================================================== */
+/*  Main Layout Framework & Component Spacing */
 .dashboard-content {
     width: 100%;
     margin-top: 16px;
@@ -101,9 +94,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* ==========================================================================
-   4. Categories Components
-   ========================================================================== */
+/*  Categories Components */
 .category-list {
     display: flex;
     gap: 12px;
@@ -129,9 +120,7 @@ body {
     color: #ffffff;
 }
 
-/* ==========================================================================
-   5. Movie Content Lists & Component Cards Framework
-   ========================================================================== */
+/* Movie Content Lists & Component Cards Framework*/
 .movie-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -193,9 +182,7 @@ body {
     font-size: 14px;
 }
 
-/* ==========================================================================
-   6. Adaptive Responsive Configurations
-   ========================================================================== */
+/*  Adaptive Responsive Configurations*/
 @media (max-width: 1024px) {
     .movie-list { grid-template-columns: repeat(3, 1fr); gap: 20px; }
     .movie-card img { height: 300px; min-height: 300px; }
